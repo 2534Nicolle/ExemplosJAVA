@@ -1,0 +1,26 @@
+package lpa2;
+import java.util.Scanner;
+public class Cortinas {
+
+	public static void main(String[] args) {
+		Scanner ler = new Scanner(System.in);
+		int soma=0;
+		int n=0;
+		
+		System.out.println("Selecione 10 números ");
+		
+		for (int i=0; i<=10; i++) {
+			n=ler.nextInt();
+			
+			soma=soma+n;
+		}	
+		int impar = (soma +1) /2;
+		int par = (soma) /2;
+		
+		System.out.println("O número " + soma + " contém " + impar + " números ímpares e " + par + " pares.");
+		ler.close();
+	}	
+}
+	
+
+
