@@ -9,7 +9,8 @@ public class Hugo {
 		for(int i = 0; i < 6; i++) {
 			System.out.println("Informe seu nome ");
 		n= ler.next();	
+		System.out.println("Seu nome é: " +n);
 		}
-
-	}
+        ler.close();
+    }
 }	
